@@ -1,0 +1,81 @@
+<md-toolbar>
+	<div layout="row" class="md-toolbar-tools md-primary">
+		<md-button ng-class="{active: $state.includes('home')}" class="md-icon-button md-raised md-accent" style="margin:6px 8px" ui-sref="home">
+			<md-tooltip>
+				Home
+			</md-tooltip>
+			<md-icon aria-label="Home" class="material-icons">
+				home
+	        </md-icon>
+		</md-button>
+		<md-button ng-class="{active: $state.includes('about')}" class="md-icon-button md-raised md-accent" style="margin:6px 8px" ui-sref="about">
+			<md-tooltip>
+				About
+			</md-tooltip>
+			<md-icon aria-label="About" class="material-icons">
+				question_answer
+	        </md-icon>
+		</md-button>
+		<md-menu style="margin: 0px;">
+			<md-button class="md-raised md-accent" ng-click="$mdOpenMenu()">
+				<md-tooltip>
+					Projects
+				</md-tooltip>
+                <md-icon md-menu-origin aria-label="Projects" class="material-icons md-24">
+					list
+		        </md-icon>
+                Projects
+			</md-button>
+			<md-menu-content width="4" style="max-height:640px;">
+				<md-menu-item class="md-indent">
+					<md-icon aria-label="Compression" class="material-icons md-24">
+						archive
+			        </md-icon>
+					<md-button href="https://github.com/donaldmcdougal/compression" target="_blank" ng-click="$mdCloseMenu()">
+						Compression
+					</md-button>
+				</md-menu-item>
+				<md-menu-item class="md-indent">
+					<md-icon aria-label="Cryptography" class="material-icons md-24">
+						enhanced_encryption
+			        </md-icon>
+					<md-button href="https://github.com/donaldmcdougal/crypto" target="_blank" ng-click="$mdCloseMenu()">
+						Cryptography
+					</md-button>
+				</md-menu-item>
+				<md-menu-item class="md-indent">
+					<md-icon aria-label="File" class="material-icons md-24">
+						insert_drive_file
+			        </md-icon>
+					<md-button href="https://github.com/donaldmcdougal/file" target="_blank" ng-click="$mdCloseMenu()">
+						File
+					</md-button>
+				</md-menu-item>
+				<md-menu-item class="md-indent">
+					<md-icon aria-label="Networking" class="material-icons md-24">
+						network_wifi
+			        </md-icon>
+					<md-button href="https://github.com/donaldmcdougal/net" target="_blank" ng-click="$mdCloseMenu()">
+						Networking
+					</md-button>
+				</md-menu-item>
+				<md-menu-item class="md-indent">
+					<md-icon aria-label="Neural Network" class="material-icons md-24">
+						call_merge
+			        </md-icon>
+					<md-button href="https://github.com/donaldmcdougal/neuralnetwork" target="_blank" ng-click="$mdCloseMenu()">
+						Neural Network
+					</md-button>
+				</md-menu-item>
+				<md-menu-item class="md-indent">
+					<md-icon aria-label="Metadata" class="material-icons md-24">
+						assessment
+			        </md-icon>
+					<md-button href="https://github.com/donaldmcdougal/metadata" target="_blank" ng-click="$mdCloseMenu()">
+						Metadata
+					</md-button>
+				</md-menu-item>
+			</md-menu-content>
+		</md-menu>
+	</div>
+</md-toolbar>
