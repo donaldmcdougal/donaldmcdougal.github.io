@@ -1,30 +1,8 @@
-@angular/material@6.4.7
-MIT
-The MIT License
+@angular/material/card
 
-Copyright (c) 2018 Google LLC.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-rxjs@6.2.2
+rxjs
 Apache-2.0
-Apache License
+                               Apache License
                          Version 2.0, January 2004
                       http://www.apache.org/licenses/
 
@@ -225,12 +203,10 @@ Apache License
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  See the License for the specific language governing permissions and
  limitations under the License.
+ 
 
-@angular/core@6.1.9
-MIT
-MIT
 
-tslib@1.9.3
+tslib
 Apache-2.0
 Apache License
 
@@ -288,7 +264,8 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 
 END OF TERMS AND CONDITIONS
 
-@angular/cdk@6.4.7
+
+@angular/cdk
 MIT
 The MIT License
 
@@ -312,11 +289,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-@angular/common@6.1.9
-MIT
+
+@angular/common
 MIT
 
-hammerjs@2.0.8
+hammerjs
 MIT
 The MIT License (MIT)
 
@@ -340,25 +317,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-@angular/platform-browser@6.1.9
-MIT
-MIT
 
-@angular/animations@6.1.9
-MIT
-MIT
+@angular/material/button
 
-@angular/forms@6.1.9
+@angular/material
 MIT
-MIT
+The MIT License
 
-@angular/router@6.1.9
-MIT
-MIT
-
-core-js@2.5.7
-MIT
-Copyright (c) 2014-2018 Denis Pushkarev
+Copyright (c) 2018 Google LLC.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -378,7 +344,36 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-zone.js@0.8.26
+
+@angular/platform-browser
+MIT
+
+@angular/animations
+MIT
+
+@angular/forms
+MIT
+
+@angular/router
+MIT
+
+@angular/material/icon
+
+@angular/material/sidenav
+
+@angular/material/toolbar
+
+@angular/material/core
+
+@angular/material/list
+
+@angular/core
+MIT
+
+@angular/compiler
+MIT
+
+zone.js
 MIT
 The MIT License
 
