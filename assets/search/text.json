@@ -1,0 +1,31 @@
+[{
+  "name": "Compression",
+  "text": "Compression Provides compression and archiving utilities in Java. The compression utilities provide archiving in the following formats: ZIP Files Only directories can be archived in the ZIP format. For now. TAR files Only directories can be archived in the TAR format. For now. The compression utilities provide compression in the following formats:  Base64 Byte arrays can be encoded to byte arrays. Byte arrays can be encoded to strings. Strings can be encoded to byte arrays. Strings can be encoded to strings. Byte arrays can be decoded to byte arrays. Byte arrays can be decoded to strings. Strings can be decoded to byte arrays. Strings can be decoded to strings. BZ2 Path objects are used to compress files to another Path location on disk. InputStream objects can be used to compress to OutputStream objects. Path objects can be used to decompress files to another Path location on disk. InputStream objects can be used to decompress to OutputStream objects. GZ Path objects are used to compress files to another Path location on disk. InputStream objects can be used to compress to OutputStream objects. Path objects can be used to decompress files to another Path location on disk. InputStream objects can be used to decompress to OutputStream objects. XZ Path objects are used to compress files to another Path location on disk. InputStream objects can be used to compress to OutputStream objects. Path objects can be used to decompress files to another Path location on disk. InputStream objects can be used to decompress to OutputStream objects."
+}, {
+  "name": "Cryptography",
+  "text": "Cryptography Provides cryptography utilities in Java.  The cryptography utilities provide cryptography functionality using the following algorithms:  AES Character arrays or strings may be used to generate secret keys. Byte arrays can be encrypted and decrypted. Files can be encrypted and decrypted. Streams can be encrypted and decrypted. It is possible to set both the initialization vector and the password salt. ECC (Elliptic Curve Cryptography) A key pair generator is used to generate random public and private keys. The private key can be used to sign an array of bytes, returning the signature as an array of bytes. The public key can be used to verify an array of bytes given the bytes and signature. Two sets of keys can be used to come to a key agreement, allowing two parties to use a shared secret key. Each party uses the other party's public key and their own private key to generate the key. As long as the two parties use each other's and their own private keys to generate the secret, the shared secret will be the same, so both parties can use for encrypting and decrypting data. This allows for communication over a secure channel. RSA A key pair generator is used to generate random public and private keys. The private key can be used to sign an array of bytes, returning the signature as an array of bytes. The public key can be used to verify an array of bytes given the bytes and signature. In RSA, you should be able to encrypt files, streams, and byte arrays using a public key and decrypt them using a private key. Generating a shared secret is not supported (yet)."
+}, {
+  "name": "Files",
+  "text": "Files Provides file operation utilities in Java.  The file utilities provide the following:  Copying a directory and all of its contents. Deleting a directory and all of its contents. Splitting a file into pieces. Useful for very large files. Assembling split file pieces back into a file. Getting a file extension. Hiding and unhiding files. Works in Windows and Linux. Not tested in MacOS, but probably works. Listing files recursively. Writing a string to file."
+}, {
+  "name": "Metadata",
+  "text": "Metadata Provides metadata extraction utilities in Java.  The metadata utilities provide the following:  Retrieving ID3 tags from MP3 files. Retrieving artwork and saving from MP3 files. Extracting Metadata from most file formats in HTML and JSON formats. Detecting the MIME type of most files."
+}, {
+  "name": "Networking",
+  "text": "Networking Provides a couple of networking utilities in Java.  The networking utilities provide the following:  Getting all IP addresses on the local machine. Guessing the IP address of the local machine. Designed to be used behind a router."
+}, {
+  "name": "Neural Networking",
+  "text": "Neural Networking Provides a sample of neural networking in Java.  The neural network sample provides calculates an XOR in a neural network using the following methods:  A feed forward network. A feed forward genetic network. An Elman genetic network."
+}, {
+  "name": "Northwind Backend",
+  "text": "Northwind REST interface Provides a sample of a REST interface in Java.  The REST interface is read-only."
+}, {
+  "name": "Northwind Client",
+  "text": "Northwind REST client Provides a sample of a REST client in Angular.  The REST sample is read-only."
+}, {
+  "name": "This Site",
+  "text": "This site Provides the source code for this site.  This site uses the following technology:  Angular Bootstrap Lunr"
+}, {
+  "name": "Utilities",
+  "text": "Utilities Provides several utilities in a bundle.  This library provides the following utilities:  Compression Cryptography File Metadata Networking IP address geolocation"
+}]
